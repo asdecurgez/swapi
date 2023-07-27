@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "swapi-node": "^0.7.0"
+  }
+}
