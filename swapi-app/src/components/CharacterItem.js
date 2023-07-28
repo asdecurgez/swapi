@@ -36,7 +36,7 @@ button {
   }
 }
 
-  /* Agregamos un contenedor para la imagen */
+
   .character-image {
     width: 100px;
     height: 100px;
@@ -84,7 +84,6 @@ const CharacterItem = ({ character }) => {
   return (
     <CharacterCard>
       <div className="character-image">
-        {/* Mostramos la imagen si está disponible */}
         {characterImage && <img src={characterImage} alt={character.name} />}
       </div>
       <h3>{character.name}</h3>
